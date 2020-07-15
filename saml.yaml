@@ -1,7 +1,7 @@
 Transform: 'AWS::Serverless-2016-10-31'
 Parameters:
     SamMultipler:
-        Description: "SAM multiplier. Make this really big to have a party :)"
+        Description: "SAM multiplier"
         Type: "String"
     OriginUrl:
         Description: "The origin url to allow CORS requests from. This will be the base URL of your static SAM website."
@@ -10,7 +10,7 @@ Resources:
     GetSAMPartyCount:
         Type: AWS::Serverless::Function
         Properties:
-            Handler: index.handler
+            Handler: index.handlerls
             Runtime: nodejs12.x
             CodeUri: ./
             Environment:

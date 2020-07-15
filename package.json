@@ -1,10 +1,10 @@
 {
-  "name": "aws-serverless-samfarm-api-demo",
+  "name": "ci-pipeline-demo",
   "version": "1.0.0",
   "dependencies": {
     "moment": "^2.16.0"
   },
-  "description": "Sam Farm lambda function",
+  "description": "CI Pipeline Demo lambda function",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Pass\" && exit 0"
