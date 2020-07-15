@@ -5,7 +5,7 @@ exports.handler = (event, context, callback) => {
 
     var originURL = process.env.ORIGIN_URL || '*';
 
-    var samCount = 1;
+    var samCount = 20;
     var samMultiplier = process.env.SAM_MULTIPLIER || 1;
 
     var totalSAMs = samCount * samMultiplier;
