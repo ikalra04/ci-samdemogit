@@ -1,9 +1,6 @@
 {
   "name": "ci-pipeline-demo",
   "version": "1.0.0",
-  "dependencies": {
-    "moment": "^2.16.0"
-  },
   "description": "CI Pipeline Demo lambda function",
   "main": "index.js",
   "scripts": {

@@ -1,5 +1,5 @@
 'use strict';
-var moment = require('moment');
+//var moment = require('moment');
 
 exports.handler = (event, context, callback) => {
 
