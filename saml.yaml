@@ -10,7 +10,7 @@ Resources:
     GetSAMPartyCount:
         Type: AWS::Serverless::Function
         Properties:
-            Handler: index.handlerls
+            Handler: index.handler
             Runtime: nodejs12.x
             CodeUri: ./
             Environment:
